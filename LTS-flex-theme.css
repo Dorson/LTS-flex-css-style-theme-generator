@@ -9,7 +9,7 @@ exceptional cases below. Computers use the last mentioned CSS setting
 /* Global sizes, boxes, margins and colors  */
 /* body width is set to 99% to avoid screen overflow on all devices. */
 
-html {padding:0em 1em;background:#F9FDFE;font-size:115%;}
+html {padding:0em 1em;background:#F9F9F9;font-size:115%;}
 
 /* max-width:100%; is set for potentially over-sized elements to avoid
 screen overflow on all devices. Notihng can be larger, since body is 99% too. */
@@ -18,7 +18,7 @@ img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
 
 body {margin: 0px; padding: 0px 20px 3px 3px;
   width:99%; min-height:99%; display:block;
-  background: #fdfefc; color: #051105;
+  background: #fdfdfd; color: #051105;
 }
 
 body, input, select, textarea,body iframe {font:1.1em/1.5em Verdana , sans-serif ;}
