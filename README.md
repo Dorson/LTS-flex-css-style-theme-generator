@@ -4,7 +4,9 @@ LTS Flex style theme in clean CSS / HTML. Quick and simple tool to create clean 
 
 
 # What is it ?
-Clean and universal CSS style for websites or apps. It's a universal CSS theme and a tool to make CSS styles faster and without making of the 100X CSS exceptions, class names and overloaded CSS files. Take it, remove the things you do not need, keep the rest, and add the missing parts from examples. Design by the use of the design work that others did before. Sweet productivity in action :-)
+Clean and universal CSS style for websites or apps. It's a universal CSS theme and a tool to make CSS styles faster and without making of the 100X CSS exceptions, class names and overloaded CSS files. Take it, remove the things you do not need, keep the rest, and add the missing parts from examples. Design by the use of the design work that others did before. Sweet productivity in action :-) 
+
+See it alive in here: https://dorson.github.io/LTS-flex-css-style-theme-generator/
 
 # Why do we need it ?
 The main idea is to provide a better tool and example for how to create beautiful website style that is functional, simple, fast, useful, friendly for most screens. Flexible on mobile, PC, tablet and TV screens too. We need this on our planet.
