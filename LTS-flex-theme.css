@@ -43,11 +43,16 @@ a:hover { border-bottom: 2px dashed #00b }
 Set CSS classes on individual pages, when they are NOT used globally.
 
 /* Examples of CSS Global classes for content boxes.
-.header {top box with logo, menu, links, search, login, etc.}
+
 .l-box {box, left on the screen}
 .r-box {box, right on the screen}
 .footer {bottom footer with quick links, final text, etc..}
  */
+
+/* .header is the box at the top of screen
+for logo, menu, links, search, login, etc. */
+
+.header {margin:10px 0px 5px 0px; width:99%; display:block;}
 
 /* .docker is the sticky box at the bottom of screen
 for quick settings and buttons */
