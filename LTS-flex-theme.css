@@ -40,12 +40,14 @@ input,texarea {padding:0 3px;}
 a:hover { border-bottom: 2px dashed #00b }
 
 /* GLOBAL CSS element classes, if needed. Keep them to the minimum.
-Set CSS classes on individual pages, when they are NOT used globally. */
+Set CSS classes on individual pages, when they are NOT used globally.
 
+/* Examples of CSS Global classes for content boxes.
 .header {top box with logo, menu, links, search, login, etc.}
 .l-box {box, left on the screen}
 .r-box {box, right on the screen}
 .footer {bottom footer with quick links, final text, etc..}
+ */
 
 /* .docker is the sticky box at the bottom of screen
 for quick settings and buttons */
