@@ -21,13 +21,13 @@ body {margin: 0px; padding: 0px 20px 3px 3px;
   background: #fdfdfd; color: #051105;
 }
 
-body, input, select, textarea,body iframe {font:1.1em/1.5em Verdana , sans-serif ;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body, input, select, textarea,body iframe {font:1.1em/1.2em Montserrat, sans-serif ;}
 
-h1 {font-size: 1.8em }
-
-h2 { font-size: 1.5em }
-
-h3 {font-size: 1em}
+h1 {font:1.555em/1.333em medium sans-serif;}
+h2 {font:1.444em/1.333em medium sans-serif;}
+h3 {font:1.333em/1.255em medium sans-serif;}
+h4,h5,h6 {font:1.111em/1.222em regular sans-serif;}
 
 input,texarea {padding:0 3px;}
 
