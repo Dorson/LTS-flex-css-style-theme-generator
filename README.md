@@ -43,8 +43,8 @@ The colors are optimized to be friendly for billions of different eyes. We  use 
  Example: img, bla, bla2, bla5, input, iframe, .box {margin: 3px; }
   Instead of setting margins for all of them individually.
   
- + 4.1 Sizes and margins first, then the colors and style.
- We help the apps to paint websites faster. First, we set sizes, madgins, borders, epaces, etc..  Then we set the colors and style details.
++ 4.1 Sizes and margins first, then the colors and style.
+We help the apps to paint websites faster. First, we set sizes, madgins, borders, epaces, etc..  Then we set the colors and style details.
 
 
 + 5.0 Maximum use of the standard HTML tags for style, instead of 100X custom CSS classes that will be forgotten in the future. We can use the HTML tags as if they were custom CSS classes. This LTS Flex theme is universal, it will work with all websites that use standard HTML tags, instead of custom CSS classes that often fail in the long time, when we forget why and what for they were created for. The HTML tags already give clarity and standards. We use them. When there are huge and important exceptions, then we can have some CSS classes in individual pages that will not break the global design of the website.
