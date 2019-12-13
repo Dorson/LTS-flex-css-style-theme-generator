@@ -22,7 +22,6 @@ body {margin: 0px; padding: 150px 0.5rem 3rem 0.5rem;
 }
 /* Empty space between all elements. Set other, where needed. */
 body *{margin-right:0.6rem;}
-p {text-align: justify;}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body, input, select, textarea,body iframe {font:1.1em/1.2em Montserrat, sans-serif ;}
