@@ -16,7 +16,7 @@ screen overflow on all devices. Notihng can be larger, since body is 99% too. */
 
 img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
 
-body {margin: 0px; padding: 0px 20px 3px 3px;
+body {margin: 0px; padding: 150px 0.5rem 3rem 0.5rem;
   width:99%; min-height:99%; display:block;
   background: #fdfdfd; color: #051105;
 }
