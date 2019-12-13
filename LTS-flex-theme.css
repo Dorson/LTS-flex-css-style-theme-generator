@@ -20,8 +20,8 @@ body {margin: 0px; padding: 0px 20px 3px 3px;
   width:99%; min-height:99%; display:block;
   background: #fdfdfd; color: #051105;
 }
-/* Empty spacing between all elements. Set other, where needed. */
-body *{margin:0.277em;}
+/* Empty space between all elements. Set other, where needed. */
+body *{margin-right:0.6rem;}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body, input, select, textarea,body iframe {font:1.1em/1.2em Montserrat, sans-serif ;}
