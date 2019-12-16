@@ -12,18 +12,19 @@ exceptional cases below. Computers use the last mentioned CSS setting.
 then we reference that everywhere as global unit of global text line-hight.
 It is the calculation in line heights, where size can be 0.7rem = 70% of text-line height.*/
 
-html {font-size:115%;padding:0px 1.5em 0px 1.5em;background:#F9F9F9;}
+html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
 
 /* max-width:100%; is set for potentially over-sized elements to avoid
 screen overflow on all devices. Notihng can be larger, if body width is max 100%. */
 
 img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
 
-body {margin: 0px; padding: 7rem 0.5rem 3rem 0.5rem;
+body {margin: 0px; padding: 7rem 1rem 3rem 1rem;
   width:99%; min-height:99%; display:block;
   background: #fdfdfd; color: #051105;
 }
-/* Empty space between all elements. Set other, where needed. */
+
+/* Global empty space between all elements. Set other, where needed. */
 body *{margin-right:0.6rem;}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
