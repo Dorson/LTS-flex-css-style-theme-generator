@@ -15,7 +15,7 @@ It is the calculation in line heights, where size can be 0.7rem = 70% of text-li
 html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
 
 /* max-width:100%; is set for potentially over-sized elements to avoid
-screen overflow on all devices. Notihng can be larger, if body width is max 100%. */
+screen overflow on all devices. Notihng can be larger, if body width is set 99%. */
 
 img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
 
@@ -30,10 +30,10 @@ body *{margin-right:0.6rem;}
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body, input, select, textarea,body iframe {font:1.1em/1.2em Montserrat, sans-serif ;}
 
-h1 {font:1.555rem/1.333rem medium sans-serif;}
-h2 {font:1.444rem/1.333rem medium sans-serif;}
-h3 {font:1.333rem/1.255rem medium sans-serif;}
-h4,h5,h6 {font:1.111rem/1.222rem regular sans-serif;}
+h1 {font:1.555rem/1.777rem medium sans-serif;}
+h2 {font:1.444rem/1.666rem medium sans-serif;}
+h3 {font:1.333rem/1.555rem medium sans-serif;}
+h4,h5,h6 {font:1.111rem/1.333rem bold sans-serif;}
 
 input,texarea {padding:0.3rem;}
 
