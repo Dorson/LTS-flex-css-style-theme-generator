@@ -15,14 +15,15 @@ then we reference that everywhere as global unit of global text line-hight.
 It is the calculation in line heights, where size can be 0.7rem = 70% of text-line height.*/
 
 html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
+html, body {margin: 0px;}
 
 /* max-width:100%; is set for potentially over-sized elements to avoid
 screen overflow on all devices. Notihng can be larger, if body width is set 99%. */
 
-img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
+img,iframe,input,element,javascript,embed,body{max-width:99%;}
 
-body {margin: 0px; padding: 7rem 1rem 3rem 1rem;
-  width:99%; min-height:99%; display:block;
+body {padding: 7rem 1.5rem 3rem 1.5rem;
+  min-height:99%; display:block;
   background: #fdfdfd; color: #051105;
 }
 
