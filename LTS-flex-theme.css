@@ -29,12 +29,12 @@ body *{margin-right:0.6rem;}
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body, input, select, textarea,body iframe {font:1.1em/1.2em Montserrat, sans-serif ;}
 
-h1 {font:1.555em/1.333em medium sans-serif;}
-h2 {font:1.444em/1.333em medium sans-serif;}
-h3 {font:1.333em/1.255em medium sans-serif;}
-h4,h5,h6 {font:1.111em/1.222em regular sans-serif;}
+h1 {font:1.555rem/1.333rem medium sans-serif;}
+h2 {font:1.444rem/1.333rem medium sans-serif;}
+h3 {font:1.333rem/1.255rem medium sans-serif;}
+h4,h5,h6 {font:1.111rem/1.222rem regular sans-serif;}
 
-input,texarea {padding:0 3px;}
+input,texarea {padding:0.3rem;}
 
 
 /* GLOBAL COLORS that were not set before. */
