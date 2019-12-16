@@ -3,20 +3,23 @@ This is a working develeopment file for human readability.
 Use a CSS optimizer to reduce file size for published websites.
 
 Global size and style settings first, then we can overwrite them in
-exceptional cases below. Computers use the last mentioned CSS setting 
+exceptional cases below. Computers use the last mentioned CSS setting. 
  */
 
 /* Global sizes, boxes, margins and colors  */
 /* body width is set to 99% to avoid screen overflow on all devices. */
+/* Font-size 115% in the html tag = 1rem unit,
+then we reference that everywhere as global unit of global text line-hight.
+It is the calculation in line heights, where size can be 0.7rem = 70% of text-line height.*/
 
-html {padding:0em 1em;background:#F9F9F9;font-size:115%;}
+html {font-size:115%;padding:0px 1.5em 0px 1.5em;background:#F9F9F9;}
 
 /* max-width:100%; is set for potentially over-sized elements to avoid
-screen overflow on all devices. Notihng can be larger, since body is 99% too. */
+screen overflow on all devices. Notihng can be larger, if body width is max 100%. */
 
 img,iframe,input,element,javascript,embed,body,html{max-width:100%;}
 
-body {margin: 0px; padding: 150px 0.5rem 3rem 0.5rem;
+body {margin: 0px; padding: 7rem 0.5rem 3rem 0.5rem;
   width:99%; min-height:99%; display:block;
   background: #fdfdfd; color: #051105;
 }
