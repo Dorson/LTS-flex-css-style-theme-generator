@@ -49,6 +49,14 @@ input,texarea {padding:0.3rem;}
 
 /* GLOBAL COLORS that were not set before. */
 
+
+form {background-color: #eef;}
+
+button, input[type=submit] {
+  background-color: #198961;
+  color: white;
+}
+
 ::selection{background:#CF7;color:#000;}
 
 /* GLOBAL style settings that were not set before. */
