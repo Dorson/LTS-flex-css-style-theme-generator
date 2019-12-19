@@ -14,13 +14,18 @@ exceptional cases below. Computers use the last mentioned CSS setting.
 then we reference that everywhere as global unit of global text line-hight.
 It is the calculation in line heights, where size can be 0.7rem = 70% of text-line height.*/
 
+/* html box-sizing will include border margins,
+all the rest use the size of their parent box */
+
+html {box-sizing: border-box;}
+html *, *:before, *:after {box-sizing: inherit;}
+
 html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
 html, body {margin: 0px;}
 
-/* max-width:100%; is set for potentially over-sized elements to avoid
-screen overflow on all devices. Notihng can be larger, if body width is set 99%. */
+/* max-width:99%; for over-sized elements to avoid screen overflow on all devices. */
 
-img,iframe,input,element,javascript,embed,body{max-width:99%;}
+body,img,iframe,input,select,element,javascript,embed,form{max-width:99%;}
 
 body {padding: 7rem 1.5rem 3rem 1.5rem;
   min-height:99%; display:block;
