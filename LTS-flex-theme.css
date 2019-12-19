@@ -46,7 +46,7 @@ h2 {font:1.444rem/1.666rem medium;}
 h3 {font:1.333rem/1.555rem medium;}
 h4,h5,h6 {font:bold 1.111rem/1.333rem;}
 
-input,texarea {padding:0.3rem;}
+input,textarea {padding:0.3rem;}
 input[type="checkbox"]{ width:2em; height:2em; }
 
 form{
