@@ -23,9 +23,11 @@ html *, *:before, *:after {box-sizing: inherit;}
 html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
 html, body {margin: 0px;}
 
-/* max-width:99%; for over-sized elements to avoid screen overflow on all devices. */
+/* max-width:99.5%; for over-sized elements to avoid screen overflow on all devices. */
 
-body,img,iframe,input,select,element,javascript,embed,form{max-width:99%;}
+body,img,iframe,input,select,element,javascript,embed,form{
+  max-width:calc(100% - 4px);
+}
 
 body {padding: 7rem 1.5rem 3rem 1.5rem;
   min-height:99%; display:block;
