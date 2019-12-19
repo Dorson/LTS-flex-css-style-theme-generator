@@ -71,6 +71,39 @@ It is better for the eyes, instead of looking into the white screen light like i
 </b>We load scripts and larger elements at the bottom </b> of the document, so that title and text come first. The people visit pafes for the content, text, images, audio or video, not for the menue of the website :-)
 </p>
 
+
+<h3>Standard HTML submit form test.</h3>
+
+<div>
+<form action="javascript:alert(
+'It works. You selected: '
++document.getElementById('input_str_1').value + ' '
++document.getElementById('input_str_2').value + ' is '
++document.getElementById('selector_1').value + ' who said : '
++document.getElementById('text_1').value
+)
+;">
+<label for="input_str_1">Name</label>
+<input type="text" id="input_str_1" name="firstname" placeholder="Your name..">
+
+<label for="input_str_2">Family Name</label>
+<input type="text" id="input_str_2" name="lastname" placeholder="Your family name..">
+
+<label for="selector_1">Drop down List</label>
+<select id="selector_1" name="selector_1">
+<option value="Human">Human</option>
+<option value="Animal Pet">Animal Pet</option>
+<option value="Galactic visitor">Galactic visitor</option>
+</select>
+
+<textarea rows="10" cols="40" id="text_1">
+Sample text area for testing. Type some text in here...
+</textarea>
+  
+<input type="submit" value="Button Test">
+</form>
+
+
 <div class="docker">
 
 <img src="https://www.twitter.com/favicon.ico" alt="twitter icon logo" />
