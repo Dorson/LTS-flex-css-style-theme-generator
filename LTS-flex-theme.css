@@ -53,23 +53,23 @@ input[type="checkbox"],input[type="radio"]{
 }
 
 form{
+  padding:0.7rem;
   position: relative;
   display: flex;
   max-width:98%;
   vertical-align: top;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content:space-evenly;
+  align-items: space-evenly;
   align-content: space-around;
-  align-items: flex-start;
-  justify-content:space-around;
-  padding:0.7rem; marign:0.5rem;
 
 }
 form *{
   position: relative;
-  display: flex;
+  margin:0.5em 0.1em 0.3em 0.1em;
   max-width:99%;
-  padding:0.5rem; marign:0.7em;
+  display:inline-flex;
   align-self:stretch;
 }
 
