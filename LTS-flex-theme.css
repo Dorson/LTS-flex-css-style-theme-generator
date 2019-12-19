@@ -47,6 +47,28 @@ h4,h5,h6 {font:bold 1.111rem/1.333rem;}
 input,texarea {padding:0.3rem;}
 
 
+form{
+  position: relative;
+  display: flex;
+  max-width:98%;
+  vertical-align: top;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: flex-start;
+  justify-content:space-around;
+  padding:0.7rem; marign:0.5rem;
+
+}
+form *{
+  position: relative;
+  display: flex;
+  max-width:99%;
+  padding:0.5rem; marign:0.7em;
+  align-self:stretch;
+}
+
+
 /* GLOBAL COLORS that were not set before. */
 
 
