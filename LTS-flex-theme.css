@@ -25,7 +25,7 @@ html, body {margin: 0px;}
 
 /* max-width:99.5%; for over-sized elements to avoid screen overflow on all devices. */
 
-body,img,iframe,input,select,element,javascript,embed,form{
+body,img,iframe,input,select,element,script,embed,form{
   max-width:calc(100% - 4px);
 }
 
