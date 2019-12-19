@@ -51,9 +51,13 @@ input,texarea {padding:0.3rem;}
 
 ::selection{background:#CF7;color:#000;}
 
-/* GLOBAL style setting that were not set before. */
+/* GLOBAL style settings that were not set before. */
 
 a:hover { border-bottom: 2px dashed #00b }
+
+button, input:hover, select:hover, textarea:hover {
+  box-shadow: 0.5em 0.5em 0.7em #aaa; cursor: pointer;
+}
 
 /* GLOBAL CSS element classes, if needed. Keep them to the minimum.
 Set CSS classes on individual pages, when they are NOT used globally.
