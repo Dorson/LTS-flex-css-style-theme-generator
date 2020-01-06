@@ -8,7 +8,27 @@ Global size and style settings first, then we can overwrite them in
 exceptional cases below. Computers use the last mentioned CSS setting. 
  */
 
-/* Global sizes, boxes, margins and colors  */
+
+/* Color variables for faster modifications and dark mode switch.  */
+
+:root {
+--color-html: #F9F9F9 ;
+--color-body: #fdfdfd ;
+--color-text: #051105 ;
+--color-selected-text: #000 ;
+--color-selected-bg: #CF7 ;
+}
+
+/* Dark mode colors.  */
+@media (prefers-color-scheme: dark) , #dark-mode-switch:checked {
+--color-html: #333 ;
+--color-body: #444 ;
+--color-text: #eee ;
+--color-selected-text: #000 ;
+--color-selected-bg: #CF7 ;
+}
+
+
 /* body width is set to 99% to avoid screen overflow on all devices. */
 /* Font-size 115% in the html tag = 1rem unit,
 then we reference that everywhere as global unit of global text line-hight.
@@ -20,7 +40,7 @@ all the rest use the size of their parent box */
 html {box-sizing: border-box;}
 html *, *:before, *:after {box-sizing: inherit;}
 
-html {font-size:115%;padding:0px 1em 0px 1em;background:#F9F9F9;}
+html {font-size:115%;padding:0px 1em 0px 1em;background:var(--color-html);}
 html, body {margin: 0px;}
 
 /* max-width:99.5%; for over-sized elements to avoid screen overflow on all devices. */
@@ -31,7 +51,7 @@ body,img,iframe,input,select,element,script,embed,form{
 
 body {padding: 7rem 1.5rem 3rem 1.5rem;
   min-height:99%; display:block;
-  background: #fdfdfd; color: #051105;
+  background: var(--color-body); color: var(--color-text);;
 }
 
 /* Global empty space between all elements. Set other, where needed. */
@@ -84,7 +104,7 @@ button, input[type=submit] {
   color: white;
 }
 
-::selection{background:#CF7;color:#000;}
+::selection{background:var(--color-selected-bg);color:var(--color-selected-text);}
 
 /* GLOBAL style settings that were not set before. */
 
