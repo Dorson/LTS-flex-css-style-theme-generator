@@ -67,8 +67,38 @@ Ruler<br />Box<br />1 Cell<br />=<br />1rem<br />
 The color of the backgorund is set at 99% white, insted of 100% white light.
 It is better for the eyes, instead of looking into the white screen light like insects.
 </p>
+
+
+  <h3> Dark mode switch. </h3> 
 <p>
-</b>We load scripts and larger elements at the bottom </b> of the document, so that title and text come first. The people visit pafes for the content, text, images, audio or video, not for the menue of the website :-)
+The dark website colors are good for the people who see websites in dark rooms.
+Or at night. Good for the sleep patterns of humans and their tired eyes at night.
+
+<script>
+document.addEventListener (
+  'DOMContentLoaded', (event) =>
+{
+  ((localStorage.getItem('mode') || 'dark') === 'dark')
+   ?
+  document.querySelector('html').classList.add('dark')
+   :
+  document.querySelector('html').classList.remove('dark')
+}
+);
+</script>
+
+<a href='javascript:void(0);' onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('html').classList.add('dark') : document.querySelector('html').classList.remove('dark')" title="Lights ON, OFF" >
+ 🌓 ⇄ ☼
+</a>
+
+</p>
+  
+  
+
+<p>
+<b>We load large scripts and larger elements at the bottom </b> of the document,
+  so that title and text come first. The people visit pafes for the content,
+  text, images, audio or video, not for the menue of the website :-)
 </p>
 
 
@@ -125,6 +155,12 @@ Sample text area for testing. Type some text in here...
 <H2 style="background:white;opacity:0.7;">
  &#9776; &#x2661; &#9788; &#9881; &#8673;
 </h2>
+
+<p>
+<a href='javascript:void(0);' onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('html').classList.add('dark') : document.querySelector('html').classList.remove('dark')" title="Lights ON, OFF" >
+Light ON./.OFF 🌓 ⇄ ☼
+</a>
+</p>
 
 <p> Be happy. Talk with people.</p>
 
