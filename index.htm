@@ -73,24 +73,59 @@ It is better for the eyes, instead of looking into the white screen light like i
 <p>
 The dark website colors are good for the people who see websites in dark rooms.
 Or at night. Good for the sleep patterns of humans and their tired eyes at night.
-
+</p>
+  
 <script>
+/*
+--- Java Script CSS class switch with memory for websites and HTML apps.
+--- Original author	:: Nikita Kondraskov (2020). 
+--- Contributors	:: YourName (type of contribution).
+--- License		:: GNU General Public License v 3.0.
+*/
+
+window.onerror=null;
+
 document.addEventListener (
   'DOMContentLoaded', (event) =>
 {
-  ((localStorage.getItem('mode') || 'dark') === 'dark')
-   ?
-  document.querySelector('html').classList.add('dark')
-   :
-  document.querySelector('html').classList.remove('dark')
+  if(!localStorage.getItem('ColorMode')) {
+   return false ;
+   }
+   else {
+    var ColorModeValue = localStorage.getItem('ColorMode') ;
+    document.querySelector('html').classList.add(ColorModeValue) ;
+   }
+return false ;
 }
 );
+
+function ClassSwitch( SetThis ) {
+  if (localStorage.getItem('ColorMode') === SetThis ) {
+      localStorage.removeItem('ColorMode') ;
+      document.querySelector('html').classList.remove( SetThis ) ;
+  }
+  else {
+   var ColorModeValue = localStorage.getItem('ColorMode') ;
+   
+   document.querySelector('html').classList.remove(ColorModeValue) ;
+   localStorage.removeItem('ColorMode') ;
+   
+   localStorage.setItem('ColorMode', SetThis ) ;
+   document.querySelector('html').classList.add( SetThis ) ;
+  }
+
+return false ;
+}
+
 </script>
 
-<a href='javascript:void(0);' onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('html').classList.add('dark') : document.querySelector('html').classList.remove('dark')" title="Lights ON, OFF" >
+<p>
+Dark Mode:
+<a href="javascript:void(0);" onclick="ClassSwitch('dark');" title="Lights ON, OFF." >
  🌓 ⇄ ☼
 </a>
-
+Or as a button: 
+<button onclick="ClassSwitch('dark');" > Dark 🌓 ⇄ ☼ </button>
 </p>
   
   
