@@ -67,13 +67,19 @@ body {padding: 7rem 1.5rem 3rem 1.5rem;
 body *{margin-right:0.6rem;}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body, input, select, textarea,body iframe {font:1.14em/1.5em Montserrat, sans-serif ;}
 
-h1,h2,h3,h4,h5,h6 {margin: 0.5em 0em ; font-family: Montserrat, Roboto, Verdana, sans-serif;}
-h1 {font:1.555rem/1.777rem medium;}
-h2 {font:1.444rem/1.666rem medium;}
-h3 {font:1.333rem/1.555rem medium;}
-h4,h5,h6 {font:bold 1.111rem/1.333rem;}
+body, input, select, textarea,body iframe {
+  font:1.14em/1.5em Montserrat, sans-serif ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ margin: 2rem 0rem 1rem 0rem ;
+ font-family: Montserrat, Roboto, Verdana, sans-serif ;
+}
+h1 { font:1.555rem/1.777rem medium ; }
+h2 { font:1.444rem/1.666rem medium ; }
+h3 { font:1.333rem/1.555rem medium ; }
+h4,h5,h6 { font:bold 1.111rem/1.333rem ; }
 
 input,textarea,select {padding:0.3rem;}
 
