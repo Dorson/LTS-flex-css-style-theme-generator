@@ -66,20 +66,35 @@ body {padding: 7rem 1.5rem 3rem 1.5rem;
 /* Global empty space between all elements. Set other, where needed. */
 body *{margin-right:0.6rem;}
 
+/* Typography Styles. rem unit size is best set as font size in html tag. */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-body, input, select, textarea,body iframe {
+body, input, select, textarea, body iframe {
   font:1.14em/1.5em Montserrat, sans-serif ;
 }
 
 h1,h2,h3,h4,h5,h6 {
- margin: 2rem 0rem 1rem 0rem ;
+ margin: 1rem 0rem 1rem 0rem ;
  font-family: Montserrat, Roboto, Verdana, sans-serif ;
+ letter-spacing: 0.13rem ;
 }
+
 h1 { font:1.555rem/1.777rem medium ; }
 h2 { font:1.444rem/1.666rem medium ; }
 h3 { font:1.333rem/1.555rem medium ; }
-h4,h5,h6 { font:bold 1.111rem/1.333rem ; }
+h4 { font:1.222rem/1.444rem sans ; }
+h5 { font:1.161rem/1.333rem sans ; }
+h6 { font:1.145rem/1.250rem sans ; }
+
+* > h1:not(:first-of-type):not(:first-child ) ,
+
+* > h2:not(:first-of-type):not(:first-child ) ,
+
+* > h3:not(:first-of-type):not(:first-child ){
+
+  margin: 2rem 0rem 1rem 0rem ;
+}
 
 input,textarea,select {padding:0.3rem;}
 
