@@ -45,7 +45,7 @@ html.dark {
 
 /*
 body width is set to 99% to avoid screen overflow on all devices.
-Font-size 115% in the html tag = 1rem unit = 17px, if 16px was user default,
+Font-size 115% in the html tag = 1rem unit = 17-20px, if 16px was user default,
 then we reference that everywhere as global unit of global text line-hight.
 It is the calculation in line heights, where size can be 0.7rem = 70% of
 text-line height.
