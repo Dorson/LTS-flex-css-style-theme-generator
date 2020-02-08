@@ -43,13 +43,18 @@ html.dark {
 }
 
 
-/* body width is set to 99% to avoid screen overflow on all devices. */
-/* Font-size 115% in the html tag = 1rem unit,
+/*
+body width is set to 99% to avoid screen overflow on all devices.
+Font-size 115% in the html tag = 1rem unit = 17px, if 16px was user default,
 then we reference that everywhere as global unit of global text line-hight.
-It is the calculation in line heights, where size can be 0.7rem = 70% of text-line height.*/
+It is the calculation in line heights, where size can be 0.7rem = 70% of
+text-line height.
+*/
 
-/* html box-sizing will include border margins,
-all the rest use the size of their parent box */
+/*
+html box-sizing will include border margins,
+all the rest use the size of their parent box
+*/
 
 html {box-sizing: border-box;}
 html *, *:before, *:after {box-sizing: inherit;}
@@ -204,8 +209,7 @@ vertical-align:top;text-align:center;border-radius:8px;box-shadow:0px 1px 33px #
 
 
 /* Print exception rules. Very useful to print website as PDF and grandma :-)  */
-@media print
-{
+@media print {
    .docker , .menue { visibility: hidden; }
    .no-print, .no-print *
     {
