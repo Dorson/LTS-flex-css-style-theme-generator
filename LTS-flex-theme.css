@@ -2,14 +2,20 @@
 
 /* 
 This is a working develeopment file for human readability.
-Use a CSS optimizer to reduce file size for published websites.
+Use the CSS optimizer to reduce file size for published websites or apps.
+
+-++ LTS Flex CSS Theme websites and HTML apps.  +++-
+--- Original author	:: Nik K. linkedin.com/in/nikita-k---/    (  5.Jan 2020). 
+--- Code adoption 	:: YourName    (date).
+--- License	      	:: GNU General Public License v 3.0.
+--- Latest version	:: github.com/Dorson/LTS-flex-css-style-theme-generator
+*/
 
 Global size and style settings first, then we can overwrite them in
 exceptional cases below. Computers use the last mentioned CSS setting. 
  */
 
 
-/* Color variables for faster modifications and dark mode switch.  */
 
 /* Color variables for faster modifications and dark mode switch.  */
 
@@ -198,6 +204,14 @@ vertical-align:top;text-align:center;border-radius:8px;box-shadow:0px 1px 33px #
   justify-content: center; }
 
 
-
+/* Print exception rules. Very useful to print website as PDF and grandma :-)  */
+@media print
+{
+   .docker , .menue { visibility: hidden; }
+   .no-print, .no-print *
+    {
+      display: none !important;
+    }
+}
 
 
