@@ -62,9 +62,6 @@ html *, *:before, *:after {box-sizing: inherit;}
 html {font-size:115%;padding:0px 1em 0px 1em;background:var(--color-html);}
 html, body {margin: 0px;}
 
-/* if inside iframe. */
-iframe > html, html > html {padding: 0px ; margin: 0px ; }
-iframe > body, body > body {padding: 1rem ; margin: 0px ; }
 
 /* max-width:99.5%; for over-sized elements to avoid screen overflow on all devices. */
 
