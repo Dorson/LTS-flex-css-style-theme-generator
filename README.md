@@ -1,6 +1,6 @@
-# LTS-flex-css-style-theme-generator
-
-LTS Flex style theme in clean CSS / HTML. Quick and simple tool to create clean CSS styles for websites and apps. Works as the universal CSS template theme, that we can adjust for any individual website later on.
+# LTS Flex style theme in clean CSS / HTML.
+# Try it:
+   https://dorson.github.io/LTS-flex-css-style-theme-generator/
 
 
 # What is it ?
