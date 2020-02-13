@@ -28,6 +28,7 @@ We all like websites that are simple to use and easy to read. We help the people
 + 1.0 Flex = flexible and adaptable to any screen, website and app.
 
 + 2.0 Vertical design layout. From top to bottom :-)
+       Good for scrolling on mobile devices.
 
 + 3.0 Minimal + structured, and then optimized too.
 We aim for the useful and clear structure of the CSS file, then we optimize it for efficiency, speed and size. During the development the code files are for reading. The optimized mini CSS file is optimized in a separate file. Efficiency and clear reading style of the code is a balance of compromise :-)
