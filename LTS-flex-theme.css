@@ -69,13 +69,13 @@ body,img,iframe,input,select,element,script,embed,form{
   max-width:calc(100% - 4px);
 }
 
-body {padding: 7rem 1.5rem 3rem 1.5rem;
-  min-height:99%; display:block;
-  background: var(--color-body); color: var(--color-text);;
+body { padding: 7rem 1.5rem 3rem 1.5rem ;
+  min-height: 99% ; display: block ;
+  background: var(--color-body) ; color: var(--color-text) ;
 }
 
-/* Global empty space between all elements. Set other, where needed. */
-body *{margin-right:0.6rem;}
+/* Default minimal spacing between all elements. Set other, where needed. */
+body * { margin: 0.1rem 0.3rem ; }
 
 /* Typography Styles. rem unit size is best set as font size in html tag. */
 
