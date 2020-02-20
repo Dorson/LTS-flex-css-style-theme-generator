@@ -69,7 +69,7 @@ body,img,iframe,input,select,element,script,embed,form{
   max-width:calc(100% - 4px);
 }
 
-body { padding: 7rem 1.5rem 3rem 1.5rem ;
+body { padding: 7rem 3% 3rem 3% ;
   min-height: 99% ; display: block ;
   background: var(--color-body) ; color: var(--color-text) ;
 }
