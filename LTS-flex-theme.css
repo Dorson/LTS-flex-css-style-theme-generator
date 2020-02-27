@@ -151,8 +151,9 @@ button, input[type=submit] {
 
 button, input[type=submit] { border:1px; border-radius: 7px;}
 
-a:link, a:visited {color : var(--color-link) ; text-decoration: none;}
-a:hover { border-bottom: 2px dashed #00b ;}
+/* Style for links. */
+a:link, a:visited { color : var(--color-link) ; text-decoration: none ; }
+a:hover { border-bottom: 0.185rem dashed var(--color-link) ; border-radius: 0.4em ; }
 
 button, input:hover, select:hover, textarea:hover {
   box-shadow: 0.5em 0.5em 0.7em #aaa; cursor: pointer; 
