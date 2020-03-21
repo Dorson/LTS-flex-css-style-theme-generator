@@ -75,7 +75,7 @@ body { padding: 7rem 3% 3rem 3% ;
 }
 
 /* Default minimal spacing between all elements. Set other, where needed. */
-body * { margin: 0.1rem 0.3rem ; }
+body * { margin: 0.5rem 0.3rem ; }
 
 /* Typography Styles. rem unit size is best set as font size in html tag. */
 
