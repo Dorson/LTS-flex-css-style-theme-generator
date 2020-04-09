@@ -242,18 +242,18 @@ for logo, menu, links, search, login, etc. */
 
 .header {margin:10px 0px 5px 0px; width:99%; display:block;}
 
-/* .docker is the sticky box at the bottom of screen
+/* .docker is the sticky menue bar at the bottom of screen
 for quick settings and buttons */
 
-.docker { margin:1px;padding:1px 1rem;position:fixed;
-bottom:0%;left: 33%;z-index:99;width:25%;height:2.7rem;color:#3B2E2E;
-text-align:center;overflow:hidden;background:transparent;border:0px;
+.docker { margin: 1px ; padding: 0px ; position: fixed ;
+bottom:0%; left: 15%; z-index:99; width: 13.5rem; height: 2.7rem; color: var(--color-text) ;
+text-align: left ; overflow: hidden ; background: transparent ; border: 0px ;
 }
 
-.docker:hover, .docker:active{ background: var(--color-body) ; color: var(--color-text) ;
-margin:1px;padding:1em;position:fixed;bottom:0%;
-left:10%;z-index:250;width:75%;height:70%; display:block;
-vertical-align:top;text-align:center;border-radius:8px;box-shadow:0px 1px 33px #bbb;
+.docker:hover, .docker:active { background: var(--color-body) ; color: var(--color-text) ;
+margin: 1px ; padding: 0.4rem ; position:fixed;bottom:0%;
+left:2%;z-index:250;width:73%;height:70%; display:block;
+vertical-align:top;text-align:center;border-radius:8px;box-shadow:0px 1px 33px #aaa;
 }
 
 
