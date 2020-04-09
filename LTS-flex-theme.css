@@ -193,22 +193,47 @@ form *{
 
 form {background-color: #e1effe;}
 
-button, input[type=submit] {
-  background-color: #198961;
-  color: white;
+
+button , input[type=submit] {
+	margin: 0.244rem ;
+	box-shadow:inset 1px 3px 3px 0px #f7c5c0;
+	background: linear-gradient(to bottom, #f04257 1%, #e0122a 99%);
+	background-color: #e0122a ;
+	border-radius: 0.4rem ;
+	border: 0px ;
+	display: inline ;
+	cursor: pointer ;
+	color: #f1f1f1 ;
+	text-shadow: 0px 1px 1px #222 ;
+	font-family: Arial ;
+	font-size: 1.2rem ;
+	font-weight: bold ;
+	padding: 0.2rem 0.5rem 0.2rem 0.5rem ;
+	text-decoration: none ;	
+}
+
+button:hover {
+	background: linear-gradient(to bottom, #ee2b41 3%, #f47181 99%) ;
+	background-color: #ee2b41 ;
+	box-shadow: 1px 2px 2px 0px #f04257 ;
+}
+
+button:active {
+	background: #e0122a ;
+	box-shadow: none ;
+	text-decoration: none ;
 }
 
 ::selection{background:var(--color-selected-bg);color:var(--color-selected-text);}
 
 /* GLOBAL style settings that were not set before. */
 
-button, input[type=submit] { border:1px; border-radius: 7px;}
 
 /* Style for links. */
 a:link, a:visited { color : var(--color-link) ; text-decoration: none ; }
 a:hover { border-bottom: 0.185rem dashed var(--color-link) ; border-radius: 0.4em ; }
 
-button, input:hover, select:hover, textarea:hover {
+input:hover, select:hover, textarea:hover {
   box-shadow: 0.5em 0.5em 0.7em #aaa; cursor: pointer; 
 }
 
