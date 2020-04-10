@@ -270,15 +270,17 @@ for logo, menu, links, search, login, etc. */
 /* .docker is the sticky menue bar at the bottom of screen
 for quick settings and buttons */
 
-.docker { margin: 1px ; padding: 0px ; position: fixed ;
-bottom:0%; left: 15%; z-index:99; width: 13.5rem; height: 2.7rem; color: var(--color-text) ;
-text-align: left ; overflow: hidden ; background: transparent ; border: 0px ;
+.docker { background: transparent ; color: var(--color-text) ;
+margin: 1px ; padding: 0px ; border: 0px ;
+position: fixed ; bottom: 0% ; left: 15% ; z-index: 99 ; width: 13.5rem ; height: 2.7rem ; 
+text-align: left ; vertical-align: top ; overflow: hidden ;  
 }
 
-.docker:hover, .docker:active { background: var(--color-body) ; color: var(--color-text) ;
-margin: 1px ; padding: 0.4rem ; position:fixed;bottom:0%;
-left:2%;z-index:250;width:73%;height:70%; display:block;
-vertical-align:top;text-align:center;border-radius:8px;box-shadow:0px 1px 33px #aaa;
+.docker:hover , .docker:active { background: var(--color-body) ; color: var(--color-text) ;
+margin: 1px ; padding: 0.4rem ;
+position: fixed; bottom: 0px ; left: 2% ; z-index:250; width: 73% ; height: 75% ; 
+border-radius: 8px ; box-shadow: 0px 1px 33px #aaa ;
+display: block ; overflow: auto ; vertical-align: top ; text-align: center ;
 }
 
 
