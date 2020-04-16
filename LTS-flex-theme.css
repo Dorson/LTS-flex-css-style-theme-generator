@@ -191,7 +191,7 @@ form *{
 /* GLOBAL COLORS that were not set before. */
 
 
-form {background-color: #e1effe;}
+form {background-color: rgba(240, 240, 240, 0.1) ;}
 
 
 button , input[type=submit] {
