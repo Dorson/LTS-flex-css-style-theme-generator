@@ -1,6 +1,5 @@
 # LTS Flex style theme in clean CSS / HTML.
-# Try it:
-   https://dorson.github.io/LTS-flex-css-style-theme-generator/
+# Try Demo: https://dorson.github.io/LTS-flex-css-style-theme-generator/
 
 
 # What is it ?
